@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    android:orientation="vertical"
+    tools:context=".Question1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="#5A9BEA">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/white"
+            app:tint="@color/white" />
+
+
+        <TextView
+            android:id="@+id/ic_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="374dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/round_back"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="what is the correct
+
+
+
+         answer of: '1 + 2 * 3'?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/op1"
+        android:layout_width="234dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/white"
+        android:baselineAligned="false"
+        android:text="5"
+
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/op2"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/white"
+        android:baselineAligned="false"
+        android:text="7"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/op3"
+        android:layout_width="234dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/white"
+        android:baselineAligned="false"
+        android:text="9"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt1"
+        android:layout_width="221dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/btn_color"
+        android:text=" show correct answer "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+
+</LinearLayout>
